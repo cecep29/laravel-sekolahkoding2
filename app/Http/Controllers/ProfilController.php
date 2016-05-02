@@ -14,4 +14,12 @@ class ProfilController extends Controller
     	$data['umur'] = 31;
     	return view('profil')->with('data', $data);
     }
+
+    public function materi()
+    {
+    	$datas = ['html', 'css', 'js'];
+    	return view('materi')->with('datas', $datas);
+    }
+
+
 }
