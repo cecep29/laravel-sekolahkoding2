@@ -14,4 +14,6 @@
 //url, controller@action
 Route::get('/', 'WelcomeController@index');
 
+Route::get('/profil', 'WelcomeController@profil');
+
     
