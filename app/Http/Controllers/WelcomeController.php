@@ -15,8 +15,4 @@ class WelcomeController extends Controller
     	return view('welcome');
     }
 
-    public function profil()
-    {
-    	return view('profil');
-    }
 }
