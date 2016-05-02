@@ -2,10 +2,10 @@
 
 @section('konten')
 ini materi 
-@if(count($datas))
+@if(count($materis))
 <ul>
-	@foreach($datas as $materi)
-	<li>{{ $materi }}</li>
+	@foreach($materis as $materi)
+	<li><a href="/materi/{{$materi->id}}">{{ $materi->nama }}</a></li>
 	@endforeach
 </ul>
 @endif
